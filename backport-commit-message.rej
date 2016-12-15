@@ -1,0 +1,45 @@
+[webpack] fix loader query string usage
+
+Backports PR #9497
+
+**Commit 1:**
+[webpack] pin to fork with fixed loader aliases
+
+* Original sha: a1e33576154e2d1cef8642a83ca60537491b05f3
+* Authored by spalger <spalger@users.noreply.github.com> on 2016-12-13T21:57:21Z
+
+**Commit 2:**
+[optimizer] upgrade to postcss+autoprefixer
+
+* Original sha: bceecd5929f8bbfb44c0a717ec824f7343711b8d
+* Authored by spalger <spalger@users.noreply.github.com> on 2016-12-14T23:57:18Z
+
+**Commit 3:**
+[timelion] convert uiExports.modules -> webpackShims
+
+* Original sha: 7e90dc6355e5bd5178dabb7b3149ec10d321da12
+* Authored by spalger <spalger@users.noreply.github.com> on 2016-12-15T17:20:54Z
+
+**Commit 4:**
+[uiExports] remove implementation-leaking and unused uiExport types
+
+* Original sha: 10016f362d1ff46b1d879a03f553a7d8cb38862f
+* Authored by spalger <spalger@users.noreply.github.com> on 2016-12-15T17:59:04Z
+
+**Commit 5:**
+[optimizer] remove unused imports
+
+* Original sha: b841c917f9206601312a5f903a8fd48c2c8cd256
+* Authored by spalger <spalger@users.noreply.github.com> on 2016-12-15T18:01:37Z
+
+**Commit 6:**
+[uiBundlerEnv] add a method for exporting global import aliases for special cases
+
+* Original sha: 4969d660df83335c9e082c3941b4c624500a2320
+* Authored by spalger <spalger@users.noreply.github.com> on 2016-12-15T18:38:52Z
+
+**Commit 7:**
+Merge branch 'master' of github.com:elastic/kibana into fix/webpack-loader-query-strings
+
+* Original sha: bcaf446e7b1cf6d64cc1f371c3e2f2952c1b55ee
+* Authored by spalger <spalger@users.noreply.github.com> on 2016-12-15T19:45:01Z
